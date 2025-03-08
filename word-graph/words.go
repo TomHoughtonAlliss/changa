@@ -20,7 +20,7 @@ func readRaw(fName string, length int) []string {
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		word := strings.TrimSpace(scanner.Text())
-		if len(word) == 4 {
+		if len(word) == length {
 			words = append(words, word)
 		}
 	}
