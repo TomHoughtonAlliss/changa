@@ -7,7 +7,7 @@ import (
 func main() {
 	g := wordgraph.NewGraph(4)
 
-	p := g.Paths("kind", "wild", 3)
+	p := g.Paths("GLEN", "CURT", 8)
 
 	wordgraph.PrintPaths(p)
 }
