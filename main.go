@@ -1,5 +1,9 @@
 package main
 
+import (
+	wordgraph "github.com/changa/word-graph"
+)
+
 func main() {
-	// Hello!
+	wordgraph.Graph()
 }

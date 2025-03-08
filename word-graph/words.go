@@ -6,8 +6,10 @@ import (
 	"strings"
 )
 
-// Read in the raw words.txt file - one word per line
-func ReadRaw(fName string) []string {
+// readRaw reads in the contents of a given file, assuming one string per line.
+//
+// It outputs each line as an element in a []string array, with line delimiters trimmed.
+func readRaw(fName string) []string {
 	file, err := os.Open(fName)
 	if err != nil {
 		panic(err)

@@ -1,5 +1,9 @@
 package wordgraph
 
-func Graph() {
+import "fmt"
 
+func Graph() {
+	words := readRaw("./word-graph/words.txt")
+
+	fmt.Println(words)
 }
