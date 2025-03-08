@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	wordgraph.Graph()
+	g := wordgraph.NewGraph(4)
+
+	g.Print()
 }
