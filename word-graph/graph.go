@@ -1,0 +1,5 @@
+package wordgraph
+
+func Graph() {
+
+}
